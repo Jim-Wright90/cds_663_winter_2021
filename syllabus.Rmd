@@ -1,0 +1,188 @@
+---
+title: "Syllabus"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## CDS 663: Management of Acquired Cognitive Impairments (CRN: 21254; 4 credit hours)
+* **Term:** Winter 2021
+* **Time:** 8:15 - 9:45 AM
+* **Classroom:** Online (Synchronous and Asynchronous)
+* **Instructors:** 
+	* Aaron Rothbart, M.S., CCC-SLLP
+		- *email:* [arothbar@uoregon.edu](mailto:arothbar@uoregon.edu)
+		- *office:* HEDCO 371
+		- *office hours*: 
+		- *pronouns:* "Aaron"; he/him/his
+	+ Jim Wright, M.A., CCC-SLP
+		- *email:* [jwrigh16@uoregon.edu](mailto:jwrigh16@uoregon.edu)
+		- *office:* HEDDO 270
+		- *office hours*: 
+		- *pronouns:* "Jim"; he/him/his
+		
+# Course Delivery Method
+This course is designated as "00 REMOTE" and will have both synchronous class meeting times and asynchronous lectures/engagement activities. Students will be expected to attend regularly scheduled synchronous class times on-line and will be expected to participate during class time by answering questions, engaging in discussions, and completing class activities. 
+
+# Course Goals & Objectives 
+
+**_Overall Course Goal_**: Provide students with a beginning level of competency to be able to implement cognitive rehabilitation with people who have acquired brain injuries in order to improve their: 
+
+* Cognitive functioning (attention, memory, executive functions, social communication)
+* Community Participation/Social Roles
+* Vocational/Academic/Recreational functioning
+* Quality of life
+
+
+**_Course Knowledge Objectives_**:
+
+1. Understanding of acquired brain injury:
+    + prevention, epidemiology, pathophysiology, and recovery mechanisms 
+2. Appreciation of specific factors relevant to subpopulations including: 
+    + Moderate to severe traumatic brain injury (TBI)
+    + Mild traumatic brain injury(mTBI)/concussion
+    + Military/Service Members 
+    + Right hemisphere damage 
+    + Dementia 
+    + Pediatric brain injury 
+3. Understanding models of cognitive functioning for:   
+    + Attention
+    + Memory
+    + Executive functions
+    + Social communication 
+4. Understanding the delivery of cognitive rehabilitation across the continuum of care:
+    + Outpatient
+    + Acute 
+    + Inpatient
+    + Community rehabilitation 
+  
+
+**_Clinical Skills Objectives - Acquire beginning competency in:_**
+
+1. Motivational Interviewing 
+2. Collaborative Functional Hypothesis Testing 
+3. Administration of standardized cognitive screeners 
+4. Measurement of collaboratively developed goals (Goal Attainment Scaling)
+5. Psychoeducation and counseling 
+  
+
+**_Course Assessment/Intervention Objectives - Acquire beginning competency in specific assessment and treatment approaches:_**
+
+1. Direct attention training (impairment-based therapy)
+2. Systematic instruction methods
+3. Spaced retrieval training 
+4. Selection and training of assistive technology for cognition 
+5. Screening for cognition 
+6. Evaluation of attention, memory, and executive functions 
+
+
+ 
+_Note regarding obtaining clinical competency and alternative clinical education (ACE) credit:_  
+
+1. Students must demonstrate competency in accordance with the ASHA KASA standards on specified competency items. If particular assignments or exam questions pertaining to these competencies do not demonstrate beginning competency, students may be asked to complete more work to demonstrate competency regardless of overall assignment or test grade. 
+  
+2. Students will obtain clinical contact hours through alternative clinical education (ACE) methods in this course. Hence, students will be required to meet specific competencies on designated ACE class exercises in order to receive ACE hours. If competency is not met on ACE assignments, students may be asked to complete further work or they may not be able to claim clinical hours.  
+
+
+# Course Format 
+
+The course agenda is available on the course website. Please note that the dates for class topics may vary as we have an opportunity for discussions or clinical applications.The order of topics and readings will remain the same. Please check with the professors if you have any questions. The course will use a combination of lecture, in-class activities and discussions. The course will be supported by Canvas and the course website. Students will be expected complete all assignments by the designated due date. 
+
+
+# Prerequisites 
+
+* Graduate level neuroanatomy course 
+* Completion of statistics and measures course
+* Writing skills commensurate with graduate level study (e.g. ability to generate scholarly, formal writing that is organized, uses correct grammatical conventions, and APA referencing)
+* Basic understanding of research methodology sufficient for reading journal articles 
+
+
+# Course Components 
+
+**_Course Grade:_** Grades will be based on percentages received of the 215 point total as indicated below. The assignments and details on evaluation criteria are described in supplementary handouts. Final course grades may be calculated on a modified curve reflecting general class performance.  
+
+## Graded Activities 
+
+  * **_2 Midterm Exams:_** There will be two quizzes covering the information in lecture and readings. Students will evaluate each other’s responses in class and receive immediate feedback on concepts that are not clear immediately following the quiz. The two quizzes will be worth 60 cumulative points (30 points each exam). 
+  * **_Systematic Instruction Portfolio:_** Due _February 25th_. Please see description on the assignments section of the course website. This assignment is worth 50 points. 
+  * **_Direct Attention Training Assignment:_** Due _February 4th_. Please see description on the assignments section of the course website. This assignment is worth 25 points. 
+  * **_SIMUCASE "Larry" (CVLT assessment):_** Due _March 10th_. Please see description of SIMUCASE write up under the assignments section of the course website. This assignment is worth 20 points.
+  * **_Review & Chew Class Reading Discussions:_** Due as indicated on the course agenda. Please see description on the assignments section of the course website. There will be three "Review & Chew" assignments each worth eight points, for a total of 24 points.
+  * **_PBE Assignment_**: Add description
+  * **_Student Engagement:_** Class participation is critical for synthesizing and applying information. Students are expected to attend every class and actively participate. Students will lose five class points for any missed lecture and 2 points for any class in which class expectations for etiquette, milieu, and engagement are not followed. Examples would be being tardy for class, interrupting a peer or speaker, texting or social media use during class etc. If emergency or illness prevents class attendance, students will need to alert professor prior and arrange for make-up work to be completed within three days of absence. Review & Chew groups cannot be made up-See handout. 
+  * **_Final Exam:_** An in-class, closed book examination will be administered with questions that require students to apply concepts learned in class. The exam will be worth 40 points. 
+
+
+Grading will occur as a percentage of total points. Decimals will be ignored.  
+
+  * 100% =A+ (225 points) 
+  * 95-99 = A (214-224) 
+  * 90-94 = A- (201-213) 
+  * 87-89 =B+ (196-200) 
+  * 84-86 =B (189-195) 
+  * 80-83 =B- (180-188) 
+
+_Anything below an 80% may not be considered meeting ASHA competencies and could result in remedial work or a requirement to retake the course._
+
+## Required Reading
+
+### Class Text
+
+Sohlberg, M.M. & Turkstra, L. (2011) _Optimizing Cognitive Rehabilitation: Effective Instructional Methods._ New York The Guildford Press  
+
+### Journal Articles 
+
+Cooper, D. B., Bowles, A. O., Kennedy, J. E., Curtiss, G., French, L. M., Tate, D. F., & Vanderploeg, R. D. (2016). Cognitive Rehabilitation for Military Service Members With Mild Traumatic Brain Injury: A Randomized Clinical Trial. _The Journal of Head Trauma Rehabilitation_. 
+
+Dahlberg, C. A., Cusick, C. P., Hawley, L. A., Newman, J. K., Morey, C. E., Harrison-Felix, C. L., & Whiteneck, G. G. (2007). Treatment efficacy of social communication skills training after traumatic brain injury: A randomized treatment and deferred treatment controlled trial. _Archives of Physical Medicine and Rehabilitation, 88_(12), 1561-1573. 
+
+Dymowski, A. R., Ponsford, J. L., & Willmott, C. (2015). Cognitive training approaches to remediate attention and executive dysfunction after traumatic brain injury: A single-case series. _Neuropsychological rehabilitation_, 1-29. 
+
+Finch, E., Copley, A., McLisky, M., Cornwell, P. L., Fleming, J. M., & Doig, E. (2019). Can goal attainment scaling (GAS) accurately identify changes in social communication impairments following TBI?. _Speech, Language and Hearing_, 1-12. 
+
+Fleming, J. M., Strong, J., & Ashton, R. (1996). Self-awareness of deficits in adults with traumatic brain injury: How best to measure?. _Brain injury, 10_(1), 1-16. 
+
+Grant, M., & Ponsford, J. (2014). Goal attainment scaling in brain injury rehabilitation: Strengths, limitations and recommendations for future applications. _Neuropsychological rehabilitation, 24_(5), 661-677. 
+
+Hillig, T., Ma, H., & Dorsch, S. (2019). Goal-oriented instructions increase the intensity of practice in stroke rehabilitation compared with non-specific instructions: A within-participant, repeated measures experimental study. _Journal of Physiotherapy, 65_(2), 95-98. 
+
+Hoepner, J. K., Olson, S. E., Hoepner, J. K., & Olson, S. E. (2018). Joint video self-modeling as a conversational intervention for an individual with traumatic brain injury and his everyday partner: A pilot investigation. _Clinical Archives of Communication Disorders, 3_(1), 22-41. 
+
+Koehler, R., Wilhelm, E., & Shoulson, I. (Eds.). (2012). _Cognitive rehabilitation therapy for traumatic brain injury: Evaluating the evidence_. National Academies Press. 
+
+Leopold, A., Lourie, A., Petras, H., & Elias, E. (2015). The use of assistive technology for cognition to support the performance of daily activities for individuals with cognitive disabilities due to traumatic brain injury: The current state of the research. _NeuroRehabilitation, 37_(3), 359-378. 
+
+Muelenbroek, P., Ness, B., Lemoncello, R., Byom, L., MacDonald, L., O’Neil-Pirozzi, T., Sohlberg, M.M. (in press) Social communication following traumatic brain injury part two: Integrating Theory with Treatment Components. _Journal of International Speech Pathology_.  
+
+OʼNeil-Pirozzi, T. M., Kennedy, M. R., & Sohlberg, M. M. (2015). Evidence-Based practice for the use of internal strategies as a memory compensation technique after brain injury: A systematic review. _The Journal of Head Trauma Rehabilitation_. DOI: 10.1097/HTR.0000000000000181 
+
+Powell, LE, Glang, A, Ettel,D et. al (2012). Systematic instruction for individuals with acquired brain injury: A randomized controlled trial. _Neuropsychological Rehabilitation, 22_(1), 85-112 
+
+Schmidt, J., Fleming, J., Ownsworth, T., & Lannin, N. A. (2012). Video feedback on functional task performance improves self-awareness after traumatic brain injury A randomized controlled trial. _Neurorehabilitation and neural repair_, 1545968312469838. 
+
+Séguin, M., Lahaie, A., Matte-Gagné, C., & Beauchamp, M. H. (2017). Ready! Set? Let's Train!: Feasibility of an intensive attention training program and its beneficial effect after childhood traumatic brain injury. _Annals of physical and rehabilitation medicine_. 
+
+Serino, A., Ciaramelli, E., Santantonio, A. D., Malagù, S., Servadei, F., & Làdavas, E. (2007). A pilot study for rehabilitation of central executive deficits after traumatic brain injury. _Brain Injury, 21_(1), 11-19. 
+
+Shum, D., Fleming, J., Gill, H., Gullo, M. J., & Strong, J. (2011). A randomized controlled trial of prospective memory rehabilitation in adults with traumatic brain injury. _Journal of rehabilitation medicine, 43_(3), 216-223. 
+
+Sohlberg, M.M., Harn, B., MacPherson, H., Wade, S.L. (2014). A pilot study evaluating attention and strategy training in pediatric traumatic brain injury. _Clinical Practice in Pediatric Psychology, 2_(3), 263-280. 
+
+Spikeman, JM, Boelen, DH, Lamberts, K. et al., (2010). Effects of a multifaceted treatment program for executive dysfunction after acquired brain injury on indications of executive functioning in daily life, _Journal of International Neuropsychological Society_, 16, 118-129. 
+
+Stamenova, V., & Levine, B. (2018). Effectiveness of goal management training® in improving executive functions: A meta-analysis. _Neuropsychological rehabilitation_, 1-31. 
+
+Svoboda, E. & Richards, B. (2009). Compensating for anterograde amnesia: A new training method that capitalizes on emerging smartphone technologies. _Journal of the International Neuropsychology Society_, 15, 629-638. 
+
+Turkstra, L., Ylvisaker, M., Coelho, C., Kennedy, M., Sohlberg, M.M., Avery, J., & Yorkston, K. (2005). Practice guidelines for standardized assessment for persons with traumatic brain injury. _Journal of Medical Speech Language Pathology,13_(2), ix-xxxviii. 
+
+Turkstra, L. S., Norman, R., Whyte, J., Dijkers, M. P., & Hart, T. (2016). Knowing What We're Doing: Why Specification of Treatment Methods Is Critical for Evidence-Based Practice in Speech-Language Pathology. _American Journal of Speech-Language Pathology, 25_(2), 164-171. 
+
+Turkstra, L. S. (2013). Inpatient cognitive rehabilitation: Is it time for a change?. _The Journal of head trauma rehabilitation, 28_(4), 332-336. 
+
+Valitchka, L., & Turkstra, L. S. (2013, August). Communicating with inpatients with memory impairments. In _Seminars in speech and language_ Vol. 34, No. 3, pp. 142-153). 
+
+Ylvisaker, M. (2006). Self-coaching: A context-sensitive, person-centered approach to social communication after traumatic brain injury. _Brain Impairment, 7_(3), 246-258. 
+
+ 
