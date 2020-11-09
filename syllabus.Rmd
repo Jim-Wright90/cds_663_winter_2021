@@ -11,7 +11,7 @@ output:
 * **Time:** 8:15 - 9:45 AM
 * **Classroom:** Online (Synchronous and Asynchronous)
 * **Instructors:** 
-	* Aaron Rothbart, M.S., CCC-SLLP
+	* Aaron Rothbart, M.S., CCC-SLP
 		- *email:* [arothbar@uoregon.edu](mailto:arothbar@uoregon.edu)
 		- *office:* HEDCO 371
 		- *office hours*: 
