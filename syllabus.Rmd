@@ -188,14 +188,14 @@ Ylvisaker, M. (2006). Self-coaching: A context-sensitive, person-centered approa
 
 ## Clinical Materials 
 
-  * APT-3 Manual 
-  * Awareness Tips
-  * Disability Rating Scale (DRS)
-  * Rancho Los Amigos Scale 
-  * Global DAT
-  * Clinical Guide (mTBI)
-  * Galveston Orientation and Amnesia Test
-  * Chapter 5 ACRM - visual scanning training/hemispatial negelct 
+  * [APT-3 Manual](tools/APT-3 Manual.pdf) 
+  * [Awareness Tips](tools/awareness-2.pdf)
+  * [Disability Rating Scale (DRS)](tools/DRS Form.pdf)
+  * [Rancho Los Amigos Scale](tools/Rancho_GOAT.pdf)
+  * [Global DAT](tools/global.pdf)
+  * [Clinical Guide (mTBI)](tools/Clinicians Guide Cognitive Rehabilitation mTBI.pdf)
+  * [Galveston Orientation and Amnesia Test](tools/Galveston_Orientation_Amnesia_Test.pdf)
+  * [Chapter 5 ACRM - visual scanning training/hemispatial neglect](tools/ACRM Chapt 5 CogRehabiManual_visualneglect.pdf) 
  
 ## Recommended Reading Practice Guidelines/EBP Review
 
