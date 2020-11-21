@@ -32,62 +32,10 @@ There will be **_three_** “Review & Chew” group sessions each worth six poin
 
 |**R&C**        | **Questions**                           | **Due**      |  
 |:-------------:| :---------------------------------------|:------------:|  
-| 1             |   [R&C 1]()                             |    1/14/21   | 
-| 2             |   [R&C 2]()                             |    1/28/21   | 
-| 3             |   [R&C 3]()                             |    2/11/21   | 
+| 1             |   [R&C 1](chews/Review&Chew_1.docx)                             |    1/14/21   | 
+| 2             |   [R&C 2](chews/Review&Chew_2.docx)                             |    1/28/21   | 
+| 3             |   [R&C 3](chews/Review&Chew_3.docx)                             |    2/11/21   | 
 
-
-
-# Direct Attention Training Assignment 
-
-**_Description_**: Review AIM or APT-3 program and practice on a peer. [NOTE: The AIM program has the strategy selection and GAS incorporated into the computer program and is set up for pediatric clients whereas the APT-3 program, the strategy selection and GAS is set up independently and is not embedded in the exercises and you would add them yourself to the planning and implementation of the exercise]. Work in partners or in trios. Every student should create their own unique client profile.  
-
-**Due:** 1/28/21
-
-## Preparation
-
-learn components of APT/AIM program. Set up a training program for a hypothetical client (anticipated time: 1.5 hours) 
-
-  1. Think through a profile for a client. The idea is to give you a rationale for your selection of your drills and strategies. Some examples: 
-  
-     + Mild attention deficits with particular difficulty with sustained attention; Impairment             evident on TEA subtest Elevator Counting and concerned about frequent fading out while reading or listening to lectures. Feels like she cannot maintain attention. 
-    
-      + Moderate attention deficit confirmed on multiple subtests of the TEA-CH and on the Working          Memory Scale on the BRIEF on the parent and teacher forms. Working memory is of most concern        but also showed difficulty with sustained and selective attention.  
-
-  2. Independently go through manual/drills and set up a test client—you can name them 
-
-  3. Figure out how you would rate the different areas of attention (AIM program only) or how you would identify areas of attention that are impaired based on your profile. 
-
-  4. Look at options for how you would select the drills. Select 5 drills that tap 1-2 types of attention that match your client profile.  
-
-  5. Look at options for how you would select the strategies—pick two strategies that match your client profile that you would have selected collaboratively. 
-
-  6. Make a program for a hypothetical client 
-  
-
-## Implementation
-
-Conduct the session you set up with your peer partner acting as the client. Go through the session, document performance on the five drills (they are three minutes each—go through all 5), strategy use and motivation and effort ratings. (anticipated time: one hour) 
-
- 
-
-## Documentation
-
-_One page overview (anticipated time: 1 hour)_
-
-**_Assignment information:_** Put your name at the top and your partner’s name in parentheses. Upload assignment to canvas. Make sure it is in Word. Label file: lastname_DAT 
-
-**_Client profile:_** Write one paragraph describing client attention profile. Include age, sex, attention profile as seen on testing and on clinical interview/questionnaire and desired functional activity that would improve if attention training were useful. This profile should match the information in the SOAP note below. It should include specification of a functional goal (Grading: 7 points-complete, writing clear and error free, clinically logical) 
-
-**_SOAP:_** Write a two paragraph SOAP style note with “O” and “A” sections. In “O” section, generate a table that displays your client’s performance on the drills (accuracy), strategy use (independence) and client ratings of motivation and effort for the last three sessions so that you can compare performance over time. Include a sentence describing data for generalization (e.g., client/parent/teacher ratings classroom focus showed xyz.) In “A” section (e.g, …continues to progress with improvement shown on all drills and effort ratings  and will benefit from increasing difficulty of drills) comment on generalization (e.g.,  In order to increase strategy use outside of clinic, it may be helpful to xyz”). 
-
- 
-## Grading
-
-  * 15 points: content complete and clinically logical 
-  * 5 points: writing clear and error free 
-  * **Total Points:** 25 points 
-  * **ACE Credit:** 30 minutes 
 
 
 
@@ -96,7 +44,7 @@ _One page overview (anticipated time: 1 hour)_
 
 **_Description:_**  Students will develop an instructional portfolio designed to showcase their knowledge about how to train people with cognitive impairments in the use of assistive technology for cognition.  In most cases, students will be selecting an app to train, although some students may elect to develop a portfolio for training a specific device. Most students will be generating a hypothetical client and creating hypothetical data. The portfolio will include the following four sections. 
 
-**Due:** 2/18/20 
+**Due:** 2/18/21 
 
 ## Section 1: Client Profile/Needs Assessment/Tool Selection 
 
@@ -154,7 +102,45 @@ The project is worth 50 points. The point allocation for each section is listed 
   * **ACE Award:** 30 Minutes 
 
 
-# PBE Assignment 
+# Putting Evidence into Practice Assignment 
 
-# Asynchronous Lectures Discussion Questions and Quizzes 
+**_Assignment:_** The purpose of this assignment is for you to translate existing evidence from paper into practice. You will each identity a cognitive intervention detailed in a research article that you feel would benefit a hypothetical client. You can use an article that was covered during the course or an article you identify independently. Keep in mind that the more recent the article, the better. Findings change frequently as research is continually conducted; therefore, it’s important to try and access the most current available research. Each of you will need to select a unique article, based on a first come, first serve basis. You may use the same intervention as another classmate, but you may not use the same article. When selecting your article, please keep in mind your hypothetical client profile, as you will need to provide a rationale for selecting the intervention. The article must demonstrate that the intervention is efficacious and support your rationale for selecting the specific intervention. You will read through the article and identify a series of key features detailed in the article necessary to demonstrate evidence. Those features will be documented on a spreadsheet that each of you will contribute to in order to establish a comprehensive reference tool to access once you have concluded the course. Then you will develop a narrative lesson plan discussing why the intervention is appropriate based upon the client’s profile and then detail how you would integrate the intervention into a clinical session. The lesson plan should briefly describe the intervention, provide a hypothesis and rationale as to why you believe it might benefit the client, and then discuss how it would be implemented during clinical sessions. 
+
+**Due:** 3/11/21 
+
+**_Preparation Considerations:_** Primary preparation is centered around selecting a client profile, which will guide your intervention search. You may use one of the client profiles referenced throughout the term, but feel free to develop a unique profile, especially students who have participated in BrICC. You will need to provide a clear rationale as to why you are selecting the intervention based upon the client’s clinical profile and reported deficits. 
+
+Once you have identified an article, you will need to become familiar with the intervention in order to provide a sufficient description and how it would then be incorporated into a clinical session. If your article does not contain a clear description in the Methods section, then you will need to obtain that information from alternative sources. The purpose of this assignment is to replicate the real-world experience of accessing evidence and identifying how to implement the intervention into clinical sessions. 
+
+**_Documentation:_** The document (see link below) will contain all of the information needed to guide the content you will want to identify in the article and report on. You will enter the information directly into the spreadsheet. For content that is not represented in the article, you will need to notate that on the spreadsheet. 
+
+[Article Tables]() 
+
+The narrative lesson plan should be approximately 2-pages in length, double-spaced, for the narrative portions. Please delineate between each of the various sections in the narrative by using headers to identify the (1) client profile, (2) intervention description, (3) clinical hypothesis and rationale, and (4) description of how you plan on embedding the intervention into a hypothetical clinical session. The narrative portions should be uploaded onto Canvas. 
+
+**_Grading:_** 25 total points
+
+  * 5 points - Fully completing the tables 
+  * 5 points - Describing your client and rationale 
+  * 5 points - Providing a detailed description of the intervention 
+  * 5 points - Describing implementation of the intervention during a clinical session
+  * 5 points - Using a clear and concise writing style, accurate grammar, and punctuation 
+  
+**Extra Credit Opportunity:_** 
+
+Earn up to 10 extra credit points by developing a brief video of yourself implementing the strategy or at least a part of the strategy, similar to the video created for you Systematic Instruction assignment. You will briefly introduce the “client” to the intervention (1-2 minutes), engage in the activity (3-6 minutes), and wrap-up the activity, including a brief review of performance (3-6 minutes). Once you have completed the video, you will need produce a modified SOAP note, providing the O, A, and P sections. You may use a table or narrative description to describe the O section, a narrative for the A section, and bullet points for P section. Remember the rationale for the P section should be evidenced by the “client’s” reported performance in the O and A sections. 
+
+**_Grading:_** - 10 total points
+
+  * 5 points - Video
+  * 5 points - Modified SOAP Note
+  
+**_Extra Credit:_** up to 10 points and 30 minutes of ACE hours 
+
+
+# SIMUCASE "Larry" (CVLT Assessment)
+
+
+# Asynchronous Lecture Discussion Questions 
+
 
