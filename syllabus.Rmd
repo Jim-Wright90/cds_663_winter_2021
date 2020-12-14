@@ -190,6 +190,7 @@ Ylvisaker, M. (2006). Self-coaching: A context-sensitive, person-centered approa
   * [Awareness Tips](tools/awareness-2.pdf)
   * [Disability Rating Scale (DRS)](tools/DRS Form.pdf)
   * [Rancho Los Amigos Scale](tools/Rancho_GOAT.pdf)
+  * [Glasgow Coma Scale](tools/GCS-Assessment-Aid-English.pdf)
   * [Global DAT](tools/global.pdf)
   * [Clinical Guide (mTBI)](tools/Clinicians Guide Cognitive Rehabilitation mTBI.pdf)
   * [Galveston Orientation and Amnesia Test](tools/Galveston_Orientation_Amnesia_Test.pdf)
