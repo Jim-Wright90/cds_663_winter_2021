@@ -21,6 +21,7 @@ output:
 		- *office:* HEDDO 270
 		- *office hours*: 
 		- *pronouns:* "Jim"; he/him/his
+* **Office Hours:** Online Wednesdays 3:00-4:00
 		
 
 # Course Goals & Objectives 
