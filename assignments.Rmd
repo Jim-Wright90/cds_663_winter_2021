@@ -80,7 +80,7 @@ The video will contain the following components:
   * Minutes 6: Session wrap up 
     
 
-**Google Doc will be created for you to put link to your video**
+**One Drive document will be created for you to put link to your video**
 
 
 ## Portfolio Format
@@ -114,7 +114,7 @@ Once you have identified an article, you will need to become familiar with the i
 
 **_Documentation:_** The document (see link below) will contain all of the information needed to guide the content you will want to identify in the article and report on. You will enter the information directly into the spreadsheet. For content that is not represented in the article, you will need to notate that on the spreadsheet. 
 
-[Article Tables]() 
+[Article Tables](tools/EBP_table_template.docx) 
 
 The narrative lesson plan should be approximately 2-pages in length, double-spaced, for the narrative portions. Please delineate between each of the various sections in the narrative by using headers to identify the (1) client profile, (2) intervention description, (3) clinical hypothesis and rationale, and (4) description of how you plan on embedding the intervention into a hypothetical clinical session. The narrative portions should be uploaded onto Canvas. 
 
