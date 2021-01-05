@@ -33,8 +33,8 @@ There will be **_three_** “Review & Chew” group sessions each worth six poin
 |**R&C**        | **Questions**                           | **Due**      |  
 |:-------------:| :---------------------------------------|:------------:|  
 | 1             |   [R&C 1](chews/Review&Chew_1.docx)                             |    1/14/21   | 
-| 2             |   [R&C 2](chews/Review&Chew_2.docx)                             |    1/28/21   | 
-| 3             |   [R&C 3](chews/Review&Chew_3.docx)                             |    2/11/21   | 
+| 2             |   [R&C 2](chews/Review&Chew_2.docx)                             |    1/21/21   | 
+| 3             |   [R&C 3](chews/Review&Chew_3.docx)                             |    2/9/21   | 
 
 
 
@@ -138,7 +138,9 @@ Earn up to 10 extra credit points by developing a brief video of yourself implem
 **_Extra Credit:_** up to 10 points and 30 minutes of ACE hours 
 
 
-# SIMUCASE "Larry" (CVLT Assessment)
+# SIMUCASE "Larry" (CLQT Assessment)
+
+Screen shot of completed Simucase assignment due Sunday 2/21/21
 
 
 
