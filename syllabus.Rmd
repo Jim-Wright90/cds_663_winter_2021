@@ -77,7 +77,7 @@ output:
 
 
  
-_Note regarding obtaining clinical competency and alternative clinical education (ACE) credit:_  
+_Note: regarding obtaining clinical competency and alternative clinical education (ACE) credit:_  
 
 1. Students must demonstrate competency in accordance with the ASHA KASA standards on specified competency items. If particular assignments or exam questions pertaining to these competencies do not demonstrate beginning competency, students may be asked to complete more work to demonstrate competency regardless of overall assignment or test grade. 
   
@@ -86,7 +86,7 @@ _Note regarding obtaining clinical competency and alternative clinical education
 
 # Course Format 
 
-The course agenda is available on the course website. Please note that the dates for class topics may vary as we have an opportunity for discussions or clinical applications.The order of topics and readings will remain the same. Please check with the professors if you have any questions. The course will use a combination of lecture, in-class activities and discussions. The course will be supported by Canvas and the course website. Students will be expected complete all assignments by the designated due date. 
+The course agenda is available on the course website. Please note that the dates for class topics may vary as we have an opportunity for discussions or clinical applications.The order of topics and readings will remain the same. Please check with the professors if you have any questions. The course will use a combination of lecture, in-class activities and discussions. The course will be supported by Canvas and the course website. Students will be expected to complete all assignments by the designated due date. 
 
 
 # Prerequisites 
