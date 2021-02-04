@@ -79,6 +79,8 @@ The video will contain the following components:
 
 [One Drive document to submit video link](https://uoregon-my.sharepoint.com/:x:/g/personal/jwrigh16_uoregon_edu/ERo6YtifhDRPrwspSh_byBABaZMscUKrhPptEgcsk--xaQ?e=dzJ1bv)
 
+[Text Book Appendix Forms](tools/Optimizing_Cognitive_Rehabilitation_Appendix_Forms.pdf)
+
 [Data Sheet Form 7.4](tools/Appendix Form 7.4.pdf)
 
 [Data Sheet Form 7.5](tools/Appendix Form 7.5.pdf)
