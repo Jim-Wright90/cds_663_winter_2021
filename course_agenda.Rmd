@@ -34,4 +34,5 @@ title: "Course Agenda"
 | 10a       |    3/9/21    |       Synchronous              |        Aaron & Jim; Guest lecturer: [Priya Kucheria]()           |          [Final lecture on cognitive domains and approaches to intervention](); [Implementing literature support of EBP into application]()        |        |                    | 
 | 10b       |    3/11/21    |       Synchronous              |        Aaron & Jim            |          Guest panel with former BrICC client and his spouse        |        |   **EBP Assignment Due**                 | 
 | 10c       |    Home Lecture    |       Asynchronous              |                   |          Office hours to answer questions prior to final        |        |                    | 
-| Final Exam Date:       |       |                    |                  |                |       |                    | 
+| Final Exam Date:       |  Friday March 19th      |                    |                  |                |       |                    | 
+| Final Exam Time:       |  8:00 AM     |                    |                  |                |       |                    | 
