@@ -87,7 +87,7 @@ The video will contain the following components:
 
 [Portfolio Write-up Example](tools/Portfolio Example.docx)
 
-[Portfolio Data Sheets Example](tools/Portfolio Data Sheets Example.pdf)
+[SI Data Sheets Examples from Textbook](tools/SI_textbook_examples.pdf)
 
 
 
