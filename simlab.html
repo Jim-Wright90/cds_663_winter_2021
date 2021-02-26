@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Simulation Strategy Training Lab</title>
+
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-16.12.0/react.min.js"></script>
+<script src="site_libs/react-16.12.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="site_libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+<script src="site_libs/reactable-binding-0.2.3/reactable.js"></script>
+<script src="site_libs/plotly-binding-4.9.2.1/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="website-custom.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CDS 663</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="course_agenda.html">Slides, Readings, &amp; Schedule</a>
+</li>
+<li>
+  <a href="assignments.html">Assignments</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="https://github.com/Jim-Wright90/cds_663_winter_2021.git">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Simulation Strategy Training Lab</h1>
+
+</div>
+
+
+<div id="description" class="section level2">
+<h2>Description</h2>
+<p>Students will rotate in groups of 9 to engage in four different clinical scenarios to practice different components of cognitive rehabilitation discussed in class this term. Each scenario will present a different clinical profile and treatment objective. Groups will spend approximately 20 minutes in each scenario.</p>
+</div>
+<div id="groups" class="section level2">
+<h2>Groups</h2>
+<p>The four SimLab groups will combine 2 Review and Chew Groups.</p>
+<ul>
+<li>SimLab Group 1: R&amp;C Groups 1 and 8</li>
+<li>SimLab Group 2: R&amp;C Groups 2 and 7</li>
+<li>SimLab Group 3: R&amp;C Groups 3 and 6</li>
+<li>SimLab Group 4: R&amp;C Groups 4 and 5</li>
+</ul>
+</div>
+<div id="rotation-schedule" class="section level2">
+<h2>Rotation Schedule</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>Round</strong></th>
+<th align="center"><strong>Time</strong></th>
+<th align="center"><strong>Aaron</strong></th>
+<th align="center"><strong>Amanda</strong></th>
+<th align="center"><strong>Heidi</strong></th>
+<th align="center"><strong>Jim</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">8:15 - 8:35</td>
+<td align="center">Group 1</td>
+<td align="center">Group 2</td>
+<td align="center">Group 3</td>
+<td align="center">Group 4</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">8:38 - 8:58</td>
+<td align="center">Group 4</td>
+<td align="center">Group 1</td>
+<td align="center">Group 2</td>
+<td align="center">Group 3</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">9:01 - 9:21</td>
+<td align="center">Group 3</td>
+<td align="center">Group 4</td>
+<td align="center">Group 1</td>
+<td align="center">Group 2</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">9:21 - 9:45</td>
+<td align="center">Group 2</td>
+<td align="center">Group 3</td>
+<td align="center">Group 4</td>
+<td align="center">Group 1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="instructor-zoom-links" class="section level2">
+<h2>Instructor Zoom Links</h2>
+<ul>
+<li><a href="https://zoom.us/j/92977552543?pwd=RVp4Y01kaDl6WG9MdFhsM2xxYkVrZz09">Aaron</a></li>
+<li><a href="https://zoom.us/j/92689139426?pwd=dXpOK2FHK3JzWkFSbnNvVTl5aHFvQT09">Amanda</a></li>
+<li><a href="">Heidi</a></li>
+<li><a href="https://zoom.us/j/95055748511?pwd=ZFNYRVFqd1UwNUxFRG56VytJTm9ndz09">Jim</a></li>
+</ul>
+</div>
+<div id="clinical-scenarios" class="section level2 tabset tabset-fade tabset-pills">
+<h2 class="tabset tabset-fade tabset-pills">Clinical Scenarios</h2>
+<div id="explain-assessment-results-to-the-daughter-of-a-severe-tbi-client" class="section level3">
+<h3>1. Explain Assessment Results to the Daughter of a Severe TBI Client</h3>
+<p><strong>Instructor:</strong> Amanda</p>
+<p><a href="https://zoom.us/j/92689139426?pwd=dXpOK2FHK3JzWkFSbnNvVTl5aHFvQT09"><strong>Zoom Link</strong></a></p>
+<p><strong>Materials Needed:</strong></p>
+<p>BrICC goal writing worksheet (you will be creating a GAS goal)</p>
+<p><strong>To do before class:</strong></p>
+<ul>
+<li>Review case study below</li>
+<li>Please see “your task” below and come to class prepared to engage in these tasks with PY and his daughter</li>
+<li><strong>Optional:</strong> Please see <a href="https://coe.uoregon.edu/cds/files/2016/05/RBANS-Webinar-Handout_2012-copy.pdf">RBANS handout on InfoCDS</a> for more information on this assessment if needed (for your verbal description of PY’s results).</li>
+</ul>
+<p><strong>Background/Evaluation Results:</strong></p>
+<p>PY was a 53-year-old man found unconscious for an unknown duration outside his home and taken by ambulance to the hospital. Imaging revealed left subdural hematoma (SDH), extensive subarachnoid hemorrhage, and right temporal bone fracture. He underwent emergency craniotomy for SDH evacuation in the context of a decreasing Glasgow Coma Scale score, reflecting a decline in his level of consciousness based on objective evaluation of eye, verbal, and motor responses. He remained in the acute hospital setting for 2 weeks, followed by 2 weeks in acute inpatient rehabilitation. His posttraumatic amnesia was estimated at more than 4 weeks.</p>
+<p>The initial outpatient speech/language assessment took place more than 1.5 years following the acute brain trauma. Comprehensive evaluation included an extensive interview with PY and his daughter regarding his injury and course of recovery, ongoing cognitive-communication limitations, current routine and day-to-day activities, use of compensatory strategies, additional mitigating factors (e.g., poor sleep, symptoms of depression), and patient/family goals for rehabilitation.</p>
+<p>Prior to the injury, PY lived independently and was employed full time as a microchip-processing technician. Following the injury and subsequent recovery and rehabilitation, PY returned home to live with his wife and adult daughter. At the time of speech-language pathology (SLP) assessment, PY had not yet returned to work, but reported that employment was his primary goal. Although both he and his daughter reported significant improvement since his injury, he continued to require family assistance with many instrumental activities of daily living (IADLs) such as financial management, driving, shopping, meal preparation, and chores around the house. He primarily spent his time alone watching television, with weekly outings with family members.</p>
+<p>PY initially denied cognitive-communication challenges, but ultimately reported having a difficult time “remembering stuff” including the television channels he preferred and the name of his dog. He also frequently forgot to eat at regular intervals. His daughter noted that she consistently observed PY having difficulty both initiating and completing tasks as well as decreased memory and word retrieval.</p>
+<p>The Wechsler Test of Adult Reading (WTAR) and the Repeatable Battery for the Assessment of Neuropsychological Status (RBANS) were administered. His performance on the WTAR suggested premorbid intellectual functioning in the high average range (raw score = 44, standard score = 116). The results of the RBANS is shown in Table 43.1.</p>
+<p><em>Table 43.1 Pretreatment performance on the Repeatable Battery for Neuropsychological Status (RBANS); initial evaluation in the outpatient clinic nearly 1.5 years following PY’s injury</em></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>Scale</strong></th>
+<th align="center"><strong>Index Score</strong></th>
+<th align="center"><strong>Percentile Rank</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Immediate memory</td>
+<td align="center">65</td>
+<td align="center">1st</td>
+</tr>
+<tr class="even">
+<td align="left">Visuospatial/constructional</td>
+<td align="center">109</td>
+<td align="center">73rd</td>
+</tr>
+<tr class="odd">
+<td align="left">Language</td>
+<td align="center">65</td>
+<td align="center">5th</td>
+</tr>
+<tr class="even">
+<td align="left">Attention</td>
+<td align="center">75</td>
+<td align="center">5th</td>
+</tr>
+<tr class="odd">
+<td align="left">Delayed memory</td>
+<td align="center">60</td>
+<td align="center">0.4th</td>
+</tr>
+<tr class="even">
+<td align="left">Total score</td>
+<td align="center">70</td>
+<td align="center">2nd</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Additional Information:</em></strong> During the clinical interview, PY was unable to generate specific, personally relevant goals to target in therapy. He again expressed his long-term goal included returning to work, and also expressed a broad interest in becoming independent with tasks at home in the meantime. Further goal setting was heavily dependent on his daughter given the severity of PY’s cognitive deficits. PY’s daughter reported that it would be highly useful if PY could begin preparing his own breakfast, since there is the least amount of supervision and assistance around the house in the morning. She reported that currently, if she puts the toast in the toaster oven and sets out butter and jelly, he can finish making himself a piece of toast.</p>
+<p><strong>Your Task:</strong></p>
+<p>You are initiating your first outpatient treatment session with PY after his assessment. His daugther is present for the session.</p>
+<ol style="list-style-type: decimal">
+<li>Provide verbal description of the RBANS score to PY and his daugther, including which cognitive domains are most impacted and how this might correlate with PY’s reported deficits.</li>
+<li>Initiate collaborative goal setting using your GAS worksheet, keeping in mind what is stated above under “additional information”.</li>
+</ol>
+</div>
+<div id="social-communication-client-conversation-sample" class="section level3">
+<h3>2. Social Communication Client (Conversation Sample)</h3>
+<p><strong>Instructor:</strong> Heidi</p>
+<p>[<strong>Zoom Link</strong>]</p>
+<p><strong>Materials Needed:</strong></p>
+<ul>
+<li><a href="readings/Togher%20et%20al.pdf">Togher et al. (2010)</a></li>
+<li><a href="tools/Adapted%20MPC%20and%20MSC%20Scales.pdf">Adapted MPC and MSC Scales</a></li>
+</ul>
+</div>
+<div id="dementia-client-treatment-session" class="section level3">
+<h3>3. Dementia Client Treatment Session</h3>
+<p><strong>Instructor:</strong> Aaron</p>
+<p><a href="https://zoom.us/j/92977552543?pwd=RVp4Y01kaDl6WG9MdFhsM2xxYkVrZz09"><strong>Zoom Link</strong></a></p>
+</div>
+<div id="concussion-client-discharge-session" class="section level3 tabset tabset-fade tabset-pills">
+<h3 class="tabset tabset-fade tabset-pills">4. Concussion Client Discharge Session</h3>
+<p><strong>Instructor:</strong> Jim</p>
+<p><a href="https://zoom.us/j/95055748511?pwd=ZFNYRVFqd1UwNUxFRG56VytJTm9ndz09"><strong>Zoom Link</strong></a></p>
+<p><strong>Materials Needed:</strong></p>
+<p>The following psychoeducation resources may be helpful to review and share with the client:</p>
+<ul>
+<li><a href="tools/Mittenberg_Recovery%20from%20mTBI%20handbook.pdf">Concussion Recovery Handbook</a></li>
+<li><a href="tools/Unhelpful%20Thinking%20Styles.pdf">Thinking Patterns Handout 1</a></li>
+<li><a href="tools/Types%20of%20Thinking%20Psychoeducation.pdf">Thinking Patterns Handout 2</a></li>
+</ul>
+<p><strong>To do before class:</strong></p>
+<ul>
+<li>Review case study below</li>
+<li>Please see “your task” below and come to class prepared to engage in these tasks with RJ.</li>
+</ul>
+<p><strong>Client Profile:</strong></p>
+<p><em><strong>Clinical History and Description:</strong></em> RJ, a 23-year-old male Army veteran, presented 2 years after sustaining a mild TBI related to an armored vehicle accident while under fire in Afghanistan. He experienced no loss of consciousness, but reported feeling dazed. He experienced headache and trouble concentrating, symptoms that resolved within 2 days allowing him to return to duty without further complaint. Approximately 6 months after his return to the United States, he began experiencing problems with concentration and memory that coincided with the diagnosis of PTSD, anxiety, depression, sleep disturbance, and chronic pain (headache, low back pain). At the time of evaluation by the VA Polytrauma Team, RJ was a full-time student in a bachelor’s degree program in psychology and has the long-term goal of completing a master’s degree in industrial and organizational psychology. He expressed concern that cognitive challenges were undermining his academic performance. Specifically, he reported significant distractibility when listening to lectures, taking notes, and struggling to recall information during examinations.</p>
+<p><em><strong>Clinical Testing:</strong></em> Interview: The clinician and veteran engaged in an interview/conversation in which the veteran endorsed cognitive concerns described above. He described how these difficulties impacted daily functioning at home and school, and his expectations for therapy. He also described treatment he was receiving for comorbid conditions.</p>
+<p>Testing included a combination of objective testing and self-report measures including the Repeatable Battery for Assessment of Neuropsychological Status 1 (RBANS). The RBANS is a cognitive screening tool with excellent reliability and validity. Performance on measures of attention, immediate memory, visual/constructional skills, and language were within the normal range. Mild impairment in delayed verbal memory was observed (Table 74.1).</p>
+<p>Repeatable Battery for the Assessment of Neuropsychological Status Self-report measures, the Behavioral Rating Inventory of Executive Functions-Adult 2 (BRIEF-A), and the Return to School Needs Assessment 3 were completed. RJ reported the perception of impaired metacognitive aspects of executive functions, including severe challenges in working memory and milder challenges in task monitoring, planning and organization, and initiation (Table 74.2). He was particularly concerned about academic readiness, and specifically (1) focusing on lectures, (2) taking good notes in class, and (3) remembering what he had learned when taking tests (Table 74.3). He confirmed significant difficulty in these areas. He was receiving mostly Cs in his classes and expressed concern that he would not have a sufficient GPA for graduate school.</p>
+<p><em>Table 74.1 RJ RBANS Results</em></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>Scale</strong></th>
+<th align="center"><strong>Index Score</strong></th>
+<th align="center"><strong>Percentile Rank</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Immediate memory</td>
+<td align="center">125</td>
+<td align="center">96th</td>
+</tr>
+<tr class="even">
+<td align="left">Visuospatial/constructional</td>
+<td align="center">100</td>
+<td align="center">50th</td>
+</tr>
+<tr class="odd">
+<td align="left">Language</td>
+<td align="center">113</td>
+<td align="center">81st</td>
+</tr>
+<tr class="even">
+<td align="left">Attention</td>
+<td align="center">113</td>
+<td align="center">81st</td>
+</tr>
+<tr class="odd">
+<td align="left">Delayed memory</td>
+<td align="center">81</td>
+<td align="center">10th</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 74.2 BRIEF-A Results</em></p>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="34%" />
+<col width="44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Index</strong></th>
+<th align="center"><strong><em>T</em>-Score</strong></th>
+<th align="center"><strong>Comment</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Behavioral Index</td>
+<td align="center">64</td>
+<td align="center">Reflects a perception of mild challenges in the areas of inhibition of behavior and the ability to shift behavioral set</td>
+</tr>
+<tr class="even">
+<td align="left">Metacognitive Index</td>
+<td align="center">72</td>
+<td align="center">Reflects a perception of significant challenges in the areas of working memory, task monitoring, and planning and organization; and mild challenges in the area of initiation</td>
+</tr>
+<tr class="odd">
+<td align="left">Global Executive Component</td>
+<td align="center">72</td>
+<td align="center">Reflects a perception of significant challenges in executive functions</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="center"><em>Note:</em> <em>T</em>-Scores 65 or greater are considered clinically significant</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 74.3 Return to School Needs Assessment</em></p>
+<table>
+<colgroup>
+<col width="37%" />
+<col width="62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Level</strong></th>
+<th align="center"><strong>Behavior</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Moderately degree of difficulty</td>
+<td align="center">Staying awake in class; listening to instructor and taking notes at the same time; and keeping emotions under control toward instructors and classmates</td>
+</tr>
+<tr class="even">
+<td align="left">Quite a bit of difficulty</td>
+<td align="center">Maintaining attention in class, when reading, when at work or school; organizing notes from lecture; remembering to bring completed assignments to class; working with others on group assignments; writing in a clear manner; keeping a balance between school and other life activities</td>
+</tr>
+<tr class="odd">
+<td align="left">Extreme degree of difficulty</td>
+<td align="center">Selecting a topic for a paper, recalling learned information when taking a test, and focusing while reading a home</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Testing Interpretation:</em></strong> RJ presented with normal performance on objective cognitive measures with the exception of mild impairment in delayed verbal memory. However, self-Report Measures identified significant challenges in a variety of cognitive areas. This disparity between objective and self-report instruments is frequently seen and does not necessarily suggest that RJ did not put forth adequate effort on the objective measures. In this case, the veteran had shown excellent effort during testing. His symptoms were validated and discussed in terms of potential response to cognitive rehabilitation strategies.</p>
+<p><em><strong>Description of Problem and Recommended Treatment:</strong></em> RJ identified challenges with working memory and distractibility in particular. He identified distractibility as the underlying cognitive challenge impacting his ability to focus on lectures and take complete notes in class. His method of study, reading and rereading notes without self-testing, raised questions as to whether he had sufficient judgment of learning to discriminate learned from unlearned material in his notes.</p>
+<p>Initial treatment focused on education regarding the nature of his injury so as to foster positive expectations for recovery and to promote more accurate attribution of symptoms to mental health conditions rather than to a mild brain injury. Misattribution of symptoms as a result of brain injury can maintain the perception of cognitive disability. Cognitive rehabilitation was provided in the context of a dynamic coaching approach in which RJ had the autonomy to select goals and strategies of treatment. The clinician served as a coach to model and explicitly teach self-regulatory skills critical to problem-solving as he implemented strategies at school. RJ selected self-talk, silently telling himself to “focus” at intervals during lectures, as a metacognitive strategy to enhance attention to lectures. He selected the use of a smartpen, an assistive technology strategy that audio records lectures in such a way that the recording is anchored to specific locations on his notes, as a strategy to efficiently retrieve missed notes after the lecture. He took notes using the Cornell Note Taking method and used key words on the left side of his notes to self-test learning after a delay, enabling him to more accurately identify learned from unlearned information.</p>
+<p><em><strong>Goal:</strong></em> Increase the weekly average number of minutes per week focused during Chemistry lecture.</p>
+<p><em>Note:</em> Chemistry lecture is twice per week for 60 minutes.</p>
+<div id="htmlwidget-75c34b57ea6c5322f275" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-75c34b57ea6c5322f275">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Level":["Much more than expected","More than expected","Expected","Baseline","Decline"],"Outcome":["Remain focused for an average of 60 minutes during Chemistry class","Remain focused for an average of 45 minutes during Chemistry class","Remain focused for an average of 30 minutes during Chemistry class","Remain focused for an average of 15 minutes during Chemistry class","Remain focused for an average of 0 minutes during Chemistry class"]},"columns":[{"accessor":"Level","name":"Level","type":"character","align":"center"},{"accessor":"Outcome","name":"Outcome","type":"character","align":"center"}],"defaultPageSize":10,"paginationType":"numbers","showPageInfo":true,"minRows":1,"highlight":true,"outlined":true,"bordered":true,"striped":true,"compact":true,"dataKey":"a241e785ac4aadd2647ad11515e2549f","key":"a241e785ac4aadd2647ad11515e2549f"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<p><em><strong>Outcome:</strong></em> Testing: Performance on objective testing using the RBANS at the end of treatment did not significantly differ from initial evaluation. However, RJ’s self-report measures showed significant symptom reduction. Although he continued to report challenges with working memory on self-report measures, the magnitude of those challenges was greatly reduced and the metacognitive strategy portion of the BRIEF-A was below the threshold for impaired performance. His perceived academic difficulty also decreased on the Return to School Needs Inventory. He reported mild difficulty focusing on lectures, mild difficulty remembering what he had learned when taking tests, and no difficulty taking good notes in class.</p>
+<p>Academic performance: RJ’s grades improved from mostly Cs to mostly As with some Bs. His professors commented on the improvements in the quality of his work and he felt confident in his ability to achieve his academic goals. The effectiveness of his strategies remained stable during times of increased stress, as when buying a house, and he reported continued success in school at 3- and 6-month follow-up appointments.</p>
+<p>Additional measurements: The following plots display data collected during each session. The first plot represents RJ’s progress on his treatment goal, while the second and third plots represent his perceived frequency of use of the self-talk strategy and helpfulness of it.</p>
+<div id="status-tracking-measurement" class="section level4">
+<h4>Status Tracking Measurement</h4>
+<p>Measurement represents weekly average of two 60-minute lectures.</p>
+<div id="htmlwidget-5601801b5988e990611b" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5601801b5988e990611b">{"x":{"data":[{"x":[1,2,3,4,5,6,7],"y":[15,20,30,30,45,45,60],"text":["session: 1<br />status: 15","session: 2<br />status: 20","session: 3<br />status: 30","session: 4<br />status: 30","session: 5<br />status: 45","session: 6<br />status: 45","session: 7<br />status: 60"],"type":"scatter","mode":"lines+markers","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":7.55905511811024,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":37.2602739726027},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"<b> Number of Minutes per Class Focused on Chemistry Lecture <\/b>","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.35,7.35],"tickmode":"array","ticktext":["1","2","3","4","5","6","7"],"tickvals":[1,2,3,4,5,6,7],"categoryorder":"array","categoryarray":["1","2","3","4","5","6","7"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"Session","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-3,63],"tickmode":"array","ticktext":["0","10","20","30","40","50","60"],"tickvals":[0,10,20,30,40,50,60],"categoryorder":"array","categoryarray":["0","10","20","30","40","50","60"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"Minutes","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"15ad32a2fe0c5":{"x":{},"y":{},"type":"scatter"},"15ad32d4dbb26":{"x":{},"y":{}}},"cur_data":"15ad32a2fe0c5","visdat":{"15ad32a2fe0c5":["function (y) ","x"],"15ad32d4dbb26":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="frequency-of-strategy-use" class="section level4">
+<h4>Frequency of Strategy Use</h4>
+<ul>
+<li>Strategy planned to be implemented in 15-minute intervals</li>
+<li>Measurement represents average across two 60-minute lectures</li>
+</ul>
+<div id="htmlwidget-c95602014fa626b317ac" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c95602014fa626b317ac">{"x":{"data":[{"x":[1,2,3,4,5,6,7],"y":[0,2,2,3,3,4,4],"text":["session: 1<br />freq: 0","session: 2<br />freq: 2","session: 3<br />freq: 2","session: 4<br />freq: 3","session: 5<br />freq: 3","session: 6<br />freq: 4","session: 7<br />freq: 4"],"type":"scatter","mode":"lines+markers","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":7.55905511811024,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":31.4155251141553},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"<b> Number of Times per Class Implementing Self-Talk Strategy <\/b>","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.35,7.35],"tickmode":"array","ticktext":["1","2","3","4","5","6","7"],"tickvals":[1,2,3,4,5,6,7],"categoryorder":"array","categoryarray":["1","2","3","4","5","6","7"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"Session","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.2,4.2],"tickmode":"array","ticktext":["1","2","3","4"],"tickvals":[1,2,3,4],"categoryorder":"array","categoryarray":["1","2","3","4"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"Intervals","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"15ad32ae7ffb4":{"x":{},"y":{},"type":"scatter"},"15ad36544986d":{"x":{},"y":{}}},"cur_data":"15ad32ae7ffb4","visdat":{"15ad32ae7ffb4":["function (y) ","x"],"15ad36544986d":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="perceived-strategy-helpfulness" class="section level4">
+<h4>Perceived Strategy Helpfulness</h4>
+<ul>
+<li>1 = Not Helpful at All</li>
+<li>2 = Not Helpful</li>
+<li>3 = Somewhat Helpful</li>
+<li>4 = Helpful</li>
+<li>5 = Very Helpful</li>
+</ul>
+<div id="htmlwidget-68d7d5a55d19a0fe1b72" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-68d7d5a55d19a0fe1b72">{"x":{"data":[{"x":[1,2,3,4,5,6,7],"y":[0,3,4,4,4,5,5],"text":["session: 1<br />help: 0","session: 2<br />help: 3","session: 3<br />help: 4","session: 4<br />help: 4","session: 5<br />help: 4","session: 6<br />help: 5","session: 7<br />help: 5"],"type":"scatter","mode":"lines+markers","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":7.55905511811024,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":31.4155251141553},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"<b> Perceived Helpfulness of Self-Talk Strategy <\/b>","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.35,7.35],"tickmode":"array","ticktext":["1","2","3","4","5","6","7"],"tickvals":[1,2,3,4,5,6,7],"categoryorder":"array","categoryarray":["1","2","3","4","5","6","7"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"Session","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.25,5.25],"tickmode":"array","ticktext":["1","2","3","4","5"],"tickvals":[1,2,3,4,5],"categoryorder":"array","categoryarray":["1","2","3","4","5"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":true,"linecolor":"rgba(0,0,0,1)","linewidth":0.66417600664176,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"Level of Helpfulness","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"15ad31c1e54ce":{"x":{},"y":{},"type":"scatter"},"15ad3b51aece":{"x":{},"y":{}}},"cur_data":"15ad31c1e54ce","visdat":{"15ad31c1e54ce":["function (y) ","x"],"15ad3b51aece":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><strong>Your Task:</strong></p>
+<p>You are conducting your final session with RJ. Using all available data (e.g., improvements on BRIEF-A and Return to School Assessment, weekly session data), engage RJ in a collaborative discussion to prepare him for discharge.</p>
+<p>Things to consider:</p>
+<ol style="list-style-type: decimal">
+<li>What psychoeducation material would be useful to reinforce?</li>
+<li>Promote RJ’s ability to generalize strategy use to all classes</li>
+<li>Promote RJ’s ability to be his “own clinician” through independent self-monitoring</li>
+</ol>
+</div>
+</div>
+</div>
+
+<p>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+<img alt="Creative Commons License" style="border-width:0" src="by-nc.png" width="65"/></a>
+<link rel="stylesheet" href="website-custom.css" type="text/css" />
+</p>
+<script src="highlight-custom.js"></script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

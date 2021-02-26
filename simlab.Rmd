@@ -1,0 +1,343 @@
+---
+title: "Simulation Strategy Training Lab"
+---
+
+
+## Description 
+
+Students will rotate in groups of 9 to engage in four different clinical scenarios to practice different components of cognitive rehabilitation discussed in class this term. Each scenario will present a different clinical profile and treatment objective. Groups will spend approximately 20 minutes in each scenario. 
+
+## Groups 
+
+The four SimLab groups will combine 2 Review and Chew Groups. 
+
+  * SimLab Group 1: R&C Groups 1 and 8
+  * SimLab Group 2: R&C Groups 2 and 7
+  * SimLab Group 3: R&C Groups 3 and 6
+  * SimLab Group 4: R&C Groups 4 and 5
+  
+
+## Rotation Schedule 
+
+| **Round** | **Time** | **Aaron** | **Amanda** | **Heidi** | **Jim** |
+| :-------: | :------: | :-------: | :--------: | :-------: | :------:|
+| 1         | 8:15 - 8:35 | Group 1 | Group 2   | Group 3   | Group 4 |
+| 2         | 8:38 - 8:58 | Group 4 | Group 1   | Group 2   | Group 3 |
+| 3         | 9:01 - 9:21 | Group 3 | Group 4   | Group 1   | Group 2 |
+| 4         | 9:21 - 9:45 | Group 2 | Group 3   | Group 4   | Group 1 |
+
+## Instructor Zoom Links 
+
+* [Aaron](https://zoom.us/j/92977552543?pwd=RVp4Y01kaDl6WG9MdFhsM2xxYkVrZz09)
+* [Amanda](https://zoom.us/j/92689139426?pwd=dXpOK2FHK3JzWkFSbnNvVTl5aHFvQT09) 
+* [Heidi]()
+* [Jim](https://zoom.us/j/95055748511?pwd=ZFNYRVFqd1UwNUxFRG56VytJTm9ndz09)
+  
+
+## Clinical Scenarios {.tabset .tabset-fade .tabset-pills}
+
+### 1. Explain Assessment Results to the Daughter of a Severe TBI Client
+
+**Instructor:** Amanda
+
+[**Zoom Link**](https://zoom.us/j/92689139426?pwd=dXpOK2FHK3JzWkFSbnNvVTl5aHFvQT09)
+
+**Materials Needed:** 
+
+BrICC goal writing worksheet (you will be creating a GAS goal)
+
+**To do before class:** 
+
+  * Review case study below
+  * Please see "your task" below and come to class prepared to engage in these tasks with PY and his daughter
+  * **Optional:** Please see [RBANS handout on InfoCDS](https://coe.uoregon.edu/cds/files/2016/05/RBANS-Webinar-Handout_2012-copy.pdf) for more information on this assessment if needed (for your verbal description of PY's results).
+  
+**Background/Evaluation Results:**
+
+PY was a 53-year-old man found unconscious for an unknown duration outside his home and taken by ambulance to the hospital. Imaging revealed left subdural hematoma (SDH), extensive subarachnoid hemorrhage, and right temporal bone fracture. He underwent emergency craniotomy for SDH evacuation in the context of a decreasing Glasgow Coma Scale score, reflecting a decline in his level of consciousness based on objective evaluation of eye, verbal, and motor responses. He remained in the acute hospital setting for 2 weeks, followed by 2 weeks in acute inpatient rehabilitation. His posttraumatic amnesia was estimated at more than 4 weeks.
+
+The initial outpatient speech/language assessment took place more than 1.5 years following the acute brain trauma. Comprehensive evaluation included an extensive interview with PY and his daughter regarding his injury and course of recovery, ongoing cognitive-communication limitations, current routine and day-to-day activities, use of compensatory strategies, additional mitigating factors (e.g., poor sleep, symptoms of depression), and patient/family goals for rehabilitation.
+
+Prior to the injury, PY lived independently and was employed full time as a microchip-processing technician. Following the injury and subsequent recovery and rehabilitation, PY returned home to live with his wife and adult daughter. At the time of speech-language pathology (SLP) assessment, PY had not yet returned to work, but reported that employment was his primary goal. Although both he and his daughter reported significant improvement since his injury, he continued to require family assistance with many instrumental activities of daily living (IADLs) such as financial management, driving, shopping, meal preparation, and chores around the house. He primarily spent his time alone watching television, with weekly outings with family members.
+
+PY initially denied cognitive-communication challenges, but ultimately reported having a difficult time “remembering stuff” including the television channels he preferred and the name of his dog. He also frequently forgot to eat at regular intervals. His daughter noted that she consistently observed PY having difficulty both initiating and completing tasks as well as decreased memory and word retrieval.
+
+The Wechsler Test of Adult Reading (WTAR) and the Repeatable Battery for the Assessment of Neuropsychological Status (RBANS) were administered. His performance on the WTAR suggested premorbid intellectual functioning in the high average range (raw score = 44, standard score = 116). The results of the RBANS is shown in Table 43.1.
+
+
+_Table 43.1 Pretreatment performance on the Repeatable Battery for Neuropsychological Status (RBANS); initial evaluation in the outpatient clinic nearly 1.5 years following PY's injury_
+
+| **Scale** | **Index Score** | **Percentile Rank** |
+| :-------- | :-------------: | :-----------------: |
+| Immediate memory | 65       | 1st                 |
+| Visuospatial/constructional | 109       | 73rd                 |
+| Language | 65       | 5th                 |
+| Attention | 75       | 5th                |
+| Delayed memory | 60       | 0.4th                 |
+| Total score | 70       | 2nd                 |
+
+**_Additional Information:_** During the clinical interview, PY was unable to generate specific, personally relevant goals to target in therapy. He again expressed his long-term goal included returning to work, and also expressed a broad interest in becoming independent with tasks at home in the meantime. Further goal setting was heavily dependent on his daughter given the severity of PY’s cognitive deficits. PY’s daughter reported that it would be highly useful if PY could begin preparing his own breakfast, since there is the least amount of supervision and assistance around the house in the morning. She reported that currently, if she puts the toast in the toaster oven and sets out butter and jelly, he can finish making himself a piece of toast.
+
+**Your Task:** 
+
+You are initiating your first outpatient treatment session with PY after his assessment. His daugther is present for the session. 
+
+  1. Provide verbal description of the RBANS score to PY and his daugther, including which cognitive domains are most impacted and how this might correlate with PY's reported deficits. 
+  2. Initiate collaborative goal setting using your GAS worksheet, keeping in mind what is stated above under "additional information". 
+  
+
+### 2. Social Communication Client (Conversation Sample)
+
+**Instructor:** Heidi
+
+[**Zoom Link**]
+
+**Materials Needed:** 
+
+* [Togher et al. (2010)](readings/Togher et al.pdf)
+* [Adapted MPC and MSC Scales](tools/Adapted MPC and MSC Scales.pdf)
+
+
+### 3. Dementia Client Treatment Session
+
+**Instructor:** Aaron
+
+[**Zoom Link**](https://zoom.us/j/92977552543?pwd=RVp4Y01kaDl6WG9MdFhsM2xxYkVrZz09)
+
+
+### 4. Concussion Client Discharge Session {.tabset .tabset-fade .tabset-pills}
+
+**Instructor:** Jim
+
+[**Zoom Link**](https://zoom.us/j/95055748511?pwd=ZFNYRVFqd1UwNUxFRG56VytJTm9ndz09)
+
+**Materials Needed:** 
+
+The following psychoeducation resources may be helpful to review and share with the client:
+
+  * [Concussion Recovery Handbook](tools/Mittenberg_Recovery from mTBI handbook.pdf)
+  * [Thinking Patterns Handout 1](tools/Unhelpful Thinking Styles.pdf)
+  * [Thinking Patterns Handout 2](tools/Types of Thinking Psychoeducation.pdf)
+
+**To do before class:** 
+
+  * Review case study below
+  * Please see "your task" below and come to class prepared to engage in these tasks with RJ. 
+  
+**Client Profile:**
+
+_**Clinical History and Description:**_ RJ, a 23-year-old male Army veteran, presented 2 years after sustaining a mild TBI related to an armored vehicle accident while under fire in Afghanistan. He experienced no loss of consciousness, but reported feeling dazed. He experienced headache and trouble concentrating, symptoms that resolved within 2 days allowing him to return to duty without further complaint. Approximately 6 months after his return to the United States, he began experiencing problems with concentration and memory that coincided with the diagnosis of PTSD, anxiety, depression, sleep disturbance, and chronic pain (headache, low back pain). At the time of evaluation by the VA Polytrauma Team, RJ was a full-time student in a bachelor’s degree program in psychology and has the long-term goal of completing a master’s degree in industrial and organizational psychology. He expressed concern that cognitive challenges were undermining his academic performance. Specifically, he reported significant distractibility when listening to lectures, taking notes, and struggling to recall information during examinations.
+
+_**Clinical Testing:**_ Interview: The clinician and veteran engaged in an interview/conversation in which the veteran endorsed cognitive concerns described above. He described how these difficulties impacted daily functioning at home and school, and his expectations for therapy. He also described treatment he was receiving for comorbid conditions.
+
+Testing included a combination of objective testing and self-report measures including the Repeatable Battery for Assessment of Neuropsychological Status 1 (RBANS). The RBANS is a cognitive screening tool with excellent reliability and validity. Performance on measures of attention, immediate memory, visual/constructional skills, and language were within the normal range. Mild impairment in delayed verbal memory was observed (Table 74.1).
+
+Repeatable Battery for the Assessment of Neuropsychological Status Self-report measures, the Behavioral Rating Inventory of Executive Functions-Adult 2 (BRIEF-A), and the Return to School Needs Assessment 3 were completed. RJ reported the perception of impaired metacognitive aspects of executive functions, including severe challenges in working memory and milder challenges in task monitoring, planning and organization, and initiation (Table 74.2). He was particularly concerned about academic readiness, and specifically (1) focusing on lectures, (2) taking good notes in class, and (3) remembering what he had learned when taking tests (Table 74.3). He confirmed significant difficulty in these areas. He was receiving mostly Cs in his classes and expressed concern that he would not have a sufficient GPA for graduate school.
+
+
+_Table 74.1 RJ RBANS Results_
+
+| **Scale** | **Index Score** | **Percentile Rank** |
+| :-------- | :-------------: | :-----------------: |
+| Immediate memory | 125       | 96th                 |
+| Visuospatial/constructional | 100       | 50th                 |
+| Language | 113       | 81st                 |
+| Attention | 113       | 81st                |
+| Delayed memory | 81       | 10th                 |
+
+
+
+_Table 74.2 BRIEF-A Results_
+
+| **Index** | **_T_-Score** | **Comment** |
+| :-------- | :-------------: | :-----------------: |
+| Behavioral Index | 64       | Reflects a perception of mild challenges in the areas of inhibition of behavior and the ability to shift behavioral set                 |
+| Metacognitive Index | 72       | Reflects a perception of significant challenges in the areas of working memory, task monitoring, and planning and organization; and mild challenges in the area of initiation                 |
+| Global Executive Component | 72       | Reflects a perception of significant challenges in executive functions                 |
+| | _Note:_ _T_-Scores 65 or greater are considered clinically significant | 
+
+
+
+_Table 74.3 Return to School Needs Assessment_
+
+| **Level** | **Behavior** |
+| :-------- | :-------------: |
+| Moderately degree of difficulty | Staying awake in class; listening to instructor and taking notes at the same time; and keeping emotions under control toward instructors and classmates |
+| Quite a bit of difficulty | Maintaining attention in class, when reading, when at work or school; organizing notes from lecture; remembering to bring completed assignments to class; working with others on group assignments; writing in a clear manner; keeping a balance between school and other life activities |
+| Extreme degree of difficulty | Selecting a topic for a paper, recalling learned information when taking a test, and focusing while reading a home |
+
+**_Testing Interpretation:_** RJ presented with normal performance on objective cognitive measures with the exception of mild impairment in delayed verbal memory. However, self-Report Measures identified significant challenges in a variety of cognitive areas. This disparity between objective and self-report instruments is frequently seen and does not necessarily suggest that RJ did not put forth adequate effort on the objective measures. In this case, the veteran had shown excellent effort during testing. His symptoms were validated and discussed in terms of potential response to cognitive rehabilitation strategies.
+
+_**Description of Problem and Recommended Treatment:**_ RJ identified challenges with working memory and distractibility in particular. He identified distractibility as the underlying cognitive challenge impacting his ability to focus on lectures and take complete notes in class. His method of study, reading and rereading notes without self-testing, raised questions as to whether he had sufficient judgment of learning to discriminate learned from unlearned material in his notes.
+
+Initial treatment focused on education regarding the nature of his injury so as to foster positive expectations for recovery and to promote more accurate attribution of symptoms to mental health conditions rather than to a mild brain injury. Misattribution of symptoms as a result of brain injury can maintain the perception of cognitive disability. Cognitive rehabilitation was provided in the context of a dynamic coaching approach in which RJ had the autonomy to select goals and strategies of treatment. The clinician served as a coach to model and explicitly teach self-regulatory skills critical to problem-solving as he implemented strategies at school. RJ selected self-talk, silently telling himself to “focus” at intervals during lectures, as a metacognitive strategy to enhance attention to lectures. He selected the use of a smartpen, an assistive technology strategy that audio records lectures in such a way that the recording is anchored to specific locations on his notes, as a strategy to efficiently retrieve missed notes after the lecture. He took notes using the Cornell Note Taking method and used key words on the left side of his notes to self-test learning after a delay, enabling him to more accurately identify learned from unlearned information.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r setup 1, include=FALSE}
+library(tidyverse)
+library(rio)
+library(here)
+library(gghighlight)
+library(forcats)
+library(ggrepel)
+library(gt)
+library(knitr)
+library(kableExtra)
+library(reactable)
+library(patchwork)
+library(colorblindr)
+library(plotly)
+
+
+theme_set(theme_minimal(15) +
+            theme(legend.position = "bottom",
+                  panel.grid.major.x = element_line(color = "gray60"),
+                  panel.grid.minor.x = element_blank(),
+                  panel.grid.major.y = element_blank())
+          )
+
+status <- import(here("data", "RJ_status.xlsx"),
+               setclass = "tbl_df") 
+
+gas <- import(here("data", "RJ_gas.xlsx"),
+               setclass = "tbl_df") 
+
+strategy <- import(here("data", "RJ_strategy.xlsx"),
+                   setclass = "tbl_df")
+
+```
+
+
+_**Goal:**_ Increase the weekly average number of minutes per week focused during Chemistry lecture. 
+
+_Note:_ Chemistry lecture is twice per week for 60 minutes. 
+
+```{r, include=FALSE}
+head(gas)
+
+gas_tbl <- gas %>% 
+  reactable(columns = list(
+    Level = colDef(align = "center"),
+    Outcome = colDef(align = "center")),
+    striped = TRUE,
+    outlined = TRUE,
+    compact = TRUE,
+    highlight = TRUE,
+    bordered = TRUE)
+```
+
+```{r, include=TRUE, fig.height=8}
+gas_tbl
+```
+
+_**Outcome:**_ Testing: Performance on objective testing using the RBANS at the end of treatment did not significantly differ from initial evaluation. However, RJ’s self-report measures showed significant symptom reduction. Although he continued to report challenges with working memory on self-report measures, the magnitude of those challenges was greatly reduced and the metacognitive strategy portion of the BRIEF-A was below the threshold for impaired performance. His perceived academic difficulty also decreased on the Return to School Needs Inventory. He reported mild difficulty focusing on lectures, mild difficulty remembering what he had learned when taking tests, and no difficulty taking good notes in class.
+
+Academic performance: RJ’s grades improved from mostly Cs to mostly As with some Bs. His professors commented on the improvements in the quality of his work and he felt confident in his ability to achieve his academic goals. The effectiveness of his strategies remained stable during times of increased stress, as when buying a house, and he reported continued success in school at 3- and 6-month follow-up appointments.
+
+Additional measurements: The following plots display data collected during each session. The first plot represents RJ's progress on his treatment goal, while the second and third plots represent his perceived frequency of use of the self-talk strategy and helpfulness of it.
+
+#### Status Tracking Measurement
+
+Measurement represents weekly average of two 60-minute lectures. 
+
+```{r, include=FALSE}
+head(status)
+
+status_plot <- ggplot(status, aes(session, status)) +
+  geom_line() +
+  geom_point(size = 2) +
+  scale_x_continuous(limits = c(0, 7),
+                     breaks = c(1, 2, 3, 4, 5, 6, 7)) +
+  scale_y_continuous(limits = c(0, 60),
+                     breaks = c(0, 10, 20, 30, 40, 50, 60)) +
+  theme_classic() +
+  theme(plot.title = element_text(color = "black", face = "bold", hjust = 0.5)) +
+  labs(x = "Session",
+       y = "Minutes",
+       title = "Number of Minutes per Class Focused on Chemistry Lecture",
+       caption = "Measurement represents weekly average of two 60-minute lectrues") 
+
+status_plot
+```
+
+```{r, include=TRUE}
+ggplotly(status_plot)
+```
+
+#### Frequency of Strategy Use
+
+  * Strategy planned to be implemented in 15-minute intervals
+  * Measurement represents average across two 60-minute lectures
+
+```{r, include=FALSE}
+head(strategy)
+
+freq_plot <- ggplot(strategy, aes(session, freq)) +
+  geom_line() +
+  geom_point(size = 2) +
+  scale_x_continuous(limits = c(0, 7),
+                     breaks = c(1, 2, 3, 4, 5, 6, 7)) +
+  scale_y_continuous(limits = c(0, 4),
+                     breaks = c(1, 2, 3, 4)) +
+  theme_classic() +
+  theme(plot.title = element_text(color = "black", face = "bold", hjust = 0.5)) +
+  labs(x = "Session",
+       y = "Intervals",
+       title = "Number of Times per Class Implementing Self-Talk Strategy",
+       caption = "Strategy planned to be implemented in 15-minute intervals; measurement represents average across two 60-minute lectures") 
+  
+freq_plot
+```
+
+```{r, include=TRUE}
+ggplotly(freq_plot)
+```
+
+#### Perceived Strategy Helpfulness 
+
+  * 1 = Not Helpful at All
+  * 2 = Not Helpful 
+  * 3 = Somewhat Helpful
+  * 4 = Helpful
+  * 5 = Very Helpful
+
+```{r, include=FALSE}
+help_plot <- ggplot(strategy, aes(session, help)) +
+  geom_line() +
+  geom_point(size = 2) +
+  scale_x_continuous(limits = c(0, 7),
+                     breaks = c(1, 2, 3, 4, 5, 6, 7)) +
+  scale_y_continuous(limits = c(0, 5),
+                     breaks = c(1, 2, 3, 4, 5)) +
+  theme_classic() +
+  theme(plot.title = element_text(color = "black", face = "bold", hjust = 0.5)) +
+  labs(x = "Session",
+       y = "Level of Helpfulness",
+       title = "Perceived Helpfulness of Self-Talk Strategy",
+       caption = "1 = Not Helpful at All\n 2 = Not Helpful\n 3 = Somewhat Helpful\n 4 = Helpful\n 5 = Very Helpful") 
+
+help_plot
+```
+
+```{r, include=TRUE}
+ggplotly(help_plot)
+```
+
+**Your Task:** 
+
+You are conducting your final session with RJ. Using all available data (e.g., improvements on BRIEF-A and Return to School Assessment, weekly session data), engage RJ in a collaborative discussion to prepare him for discharge. 
+
+Things to consider: 
+
+  1. What psychoeducation material would be useful to reinforce?
+  2. Promote RJ's ability to generalize strategy use to all classes 
+  3. Promote RJ's ability to be his "own clinician" through independent self-monitoring 
+
+
+  
+
+
