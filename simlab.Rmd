@@ -105,7 +105,7 @@ You are initiating your first outpatient treatment session with PY after his ass
 [**Zoom Link**](https://zoom.us/j/92977552543?pwd=RVp4Y01kaDl6WG9MdFhsM2xxYkVrZz09)
 
 
-### 4. Concussion Client Discharge Session {.tabset .tabset-fade .tabset-pills}
+### 4. Concussion Client Discharge Session 
 
 **Instructor:** Jim
 
@@ -240,9 +240,7 @@ Academic performance: RJ’s grades improved from mostly Cs to mostly As with so
 
 Additional measurements: The following plots display data collected during each session. The first plot represents RJ's progress on his treatment goal, while the second and third plots represent his perceived frequency of use of the self-talk strategy and helpfulness of it.
 
-#### Status Tracking Measurement
-
-Measurement represents weekly average of two 60-minute lectures. 
+**Status Tracking Measurement:** Measurement represents weekly average of two 60-minute lectures. 
 
 ```{r, include=FALSE}
 head(status)
@@ -268,7 +266,7 @@ status_plot
 ggplotly(status_plot)
 ```
 
-#### Frequency of Strategy Use
+**Frequency of Strategy Use:**
 
   * Strategy planned to be implemented in 15-minute intervals
   * Measurement represents average across two 60-minute lectures
@@ -297,7 +295,7 @@ freq_plot
 ggplotly(freq_plot)
 ```
 
-#### Perceived Strategy Helpfulness 
+**Perceived Strategy Helpfulness:**
 
   * 1 = Not Helpful at All
   * 2 = Not Helpful 
