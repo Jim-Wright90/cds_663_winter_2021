@@ -50,7 +50,7 @@ BrICC goal writing worksheet (you will be creating a GAS goal)
 
   * Review case study below
   * Please see "your task" below and come to class prepared to engage in these tasks with PY and his daughter
-  * **Optional:** Please see [RBANS handout on InfoCDS](https://coe.uoregon.edu/cds/files/2016/05/RBANS-Webinar-Handout_2012-copy.pdf) for more information on this assessment if needed (for your verbal description of PY's results).
+  * **Optional:** Please see [RBANS handout on InfoCDS](https://coe.uoregon.edu/cds/files/2016/05/RBANS-Webinar-Handout_2012-copy.pdf) for more information on this assessment if needed (for your verbal description of PY's results)
   
 **Background/Evaluation Results:**
 
@@ -103,6 +103,39 @@ You are initiating your first outpatient treatment session with PY after his ass
 **Instructor:** Aaron
 
 [**Zoom Link**](https://zoom.us/j/92977552543?pwd=RVp4Y01kaDl6WG9MdFhsM2xxYkVrZz09)
+
+**Materials Needed:** 
+
+Develop appropriate reminiscence materials 
+
+**To do before class:** 
+
+  * Review case study below
+  * Please see "your task" below and come to class prepared to engage the patient in the designated tasks
+
+**Background/Evaluation Results:**
+
+Michael was referred to your specialty memory clinic at the age of 58 with a 2-year history of repetitiveness, memory loss, and executive function loss. Magnetic resonance imaging scan at age 58 revealed mild generalized cortical atrophy. He is white with 2 years of postsecondary education. Retirement at age 48 from employment as a manager in telecommunications company was because family finances allowed and not because of cognitive challenges with work. Progressive cognitive decline was evident by the report of deficits in instrumental activities of daily living performance over the past 9 months before his initial consultation in the memory clinic. Word finding and literacy skills were noted to have deteriorated in the preceding 6 months according to his spouse. Examples of functional losses were being slower in processing and carrying out instructions, not knowing how to turn off the stove, and becoming unable to assist in boat docking which was the couple’s pastime. He stopped driving a motor vehicle about 6 months before his memory clinic consultation. His past medical history was relevant for hypercholesterolemia and vitamin D deficiency. He had no surgical history. He had no history of smoking, alcohol, or other drug misuse. Laboratory screening was normal. There was no first-degree family history of presenile dementia. Testing has resulted in a medical diagnosis of early onset dementia.
+Neurocognitive assessment at the first clinic visit revealed a Mini Mental State Examination (MMSE) score of 14/30; poor verbal fluency (patient was able to produce only 5 animal names and 1 F-word in 1 minute) as well as poor visuospatial and executive skills (see below). He had fluent speech without semantic deficits. His neurological examination was pertinent for normal muscle tone and power, mild ideomotor apraxia on performing commands for motor tasks with no suggestion of cerebellar dysfunction, normal gait, no frontal release signs. His speech was fluent with obvious word finding difficulties, but with no phonemic or semantic paraphrasic errors. His general physical examination was unremarkable without evidence of presenile cataracts. He had normal hearing. There was no evidence of depression or psychotic symptoms.
+Michael has trouble remembering important dates (anniversary - 6/16) and locating essential tools/objects, such as his glasses (beside table). Basic information has also been challenging for retention, including his home address (4321 Sesame St.). He has always enjoyed maintaining a succulent garden and used to participate in a local string quartet. He and his spouse are financial sponsors of a local community theatre.
+
+
+![](tools/dementia_client_pic.png)
+
+
+**Your Task:** 
+
+  1. Develop an appropriate target to use for spaced retrieval training during the session
+  2. Measure spaced retrieval performance 
+  3. Use reminiscence therapy materials as the distractor between spaced retrieval during longer intervals 
+
+
+**Resources:**
+
+  1. [Spaced retrieval explanation](https://www.youtube.com/watch?v=FiLzX1r8RVI)
+  2. [Spaced retrieval data sheet](https://eatspeakthink.com/spaced-retrieval-with-errorless-learning-data-sheet/)
+
+
 
 
 ### 4. Concussion Client Discharge Session 
