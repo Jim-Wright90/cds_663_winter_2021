@@ -30,7 +30,7 @@ The four SimLab groups will combine 2 Review and Chew Groups.
 
 * [Aaron](https://zoom.us/j/92977552543?pwd=RVp4Y01kaDl6WG9MdFhsM2xxYkVrZz09)
 * [Amanda](https://zoom.us/j/92689139426?pwd=dXpOK2FHK3JzWkFSbnNvVTl5aHFvQT09) 
-* [Heidi]()
+* [Heidi](https://zoom.us/j/93478546093)
 * [Jim](https://zoom.us/j/95055748511?pwd=ZFNYRVFqd1UwNUxFRG56VytJTm9ndz09)
   
 
@@ -90,12 +90,39 @@ You are initiating your first outpatient treatment session with PY after his ass
 
 **Instructor:** Heidi
 
-[**Zoom Link**]
+[**Zoom Link**](https://zoom.us/j/93478546093)
 
 **Materials Needed:** 
 
-* [Togher et al. (2010)](readings/Togher et al.pdf)
-* [Adapted MPC and MSC Scales](tools/Adapted MPC and MSC Scales.pdf)
+Be ready to score the Adapted MPC and MSC Scales during the simulation; print out a hard copy or have them accessible on your computer, phone or tablet
+
+  * [Togher et al. (2010)](readings/Togher et al.pdf)
+  * [Adapted MPC and MSC Scales](tools/Adapted MPC and MSC Scales.pdf)
+
+
+**To do before class:**
+
+  * Review case study below
+  * Please see "your task" below and come to class prepared to engage the patient in designated tasks 
+  
+
+**Background/Evaluation Results:**
+
+Sandy is a 39-year old woman who experienced a closed frontal lobe injury a year and a half ago in a bicycle accident. She is the mother of three children (aged 14, 11, and 8) and works as a freelance animator. 
+Sandy completed both inpatient and outpatient rehabilitation services after her injury, and has improved in language, attention, and problem solving since the accident. She has also been able to gradually increase the number of animation projects she takes on, so that now she is completing almost as many projects per month as before the injury. However, her spouse, siblings, and children report certain social communication changes that have not been improving. They encouraged Sandy to receive an evaluation for social communication at your clinic because of her increased talkativeness, impatience and intolerance of others, impulsivity, socially inappropriate comments, decreased facial expression, and responding inappropriately to social cues. Her children complained that their mother does not seem to listen to them anymore, and that her “lack of a filter” when talking with others frequently embarrassed them. Sandy’s two siblings, who previously enjoyed a close relationship with her, also expressed that it was difficult for their families to get together anymore since Sandy tended to take over the conversation and not show as much empathy toward them as she had before the injury. 
+
+
+**Your Task:** 
+
+As part of the social communication evaluation, we are going to take a 6-minute conversation sample between Sandy and one of her siblings who accompanied her to the evaluation.
+
+**One of you will participate in the conversation sample as Sandy’s sibling.** For this conversation sample, we will use the following “purposeful conversation” prompt:
+
+_Together, we want you to come up with a list of situations you are expecting to face over the next four weeks or so where communication is important to you both. It might be something routine like a family dinner or social event. In the next 5 minutes, come up with a list of these situations together and WHY they are important.” (Togher et al., 2010)._
+
+**All remaining group members will score the Adapted MPC and MSC Scales for this conversation.** Note that the first scale is the Measure of Skill in Supported Conversation (MSC), which includes both A. “Acknowledging Competence” and B. “Revealing Competence”. This is to be used for rating the communication partner (in this case example, Sandy’s sibling). The second scale is the Measure of Participation in Conversation (MPC) which includes both A. “Interaction” and B. “Transaction”. This will be used for rating the communication of the person with a brain injury (in this case example, Sandy).
+
+**After the conversation sample, be prepare to share your ratings and discuss!**
 
 
 ### 3. Dementia Client Treatment Session
