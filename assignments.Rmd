@@ -112,6 +112,8 @@ The project is worth 50 points. The point allocation for each section is listed 
 
 # Putting Evidence into Practice Assignment 
 
+**3/9/21 Update:** This assignment is no longer required and is an optional 10-point extra credit assignment. 
+
 **_Assignment:_** The purpose of this assignment is for you to translate existing evidence from paper into practice. You will each identity a cognitive intervention detailed in a research article that you feel would benefit a hypothetical client. You can use an article that was covered during the course or an article you identify independently. Keep in mind that the more recent the article, the better. Findings change frequently as research is continually conducted; therefore, it’s important to try and access the most current available research. Each of you will need to select a unique article, based on a first come, first serve basis. You may use the same intervention as another classmate, but you may not use the same article. When selecting your article, please keep in mind your hypothetical client profile, as you will need to provide a rationale for selecting the intervention. The article must demonstrate that the intervention is efficacious and support your rationale for selecting the specific intervention. You will read through the article and identify a series of key features detailed in the article necessary to demonstrate evidence. Those features will be documented on a spreadsheet that each of you will contribute to in order to establish a comprehensive reference tool to access once you have concluded the course. Then you will develop a narrative lesson plan discussing why the intervention is appropriate based upon the client’s profile and then detail how you would integrate the intervention into a clinical session. The lesson plan should briefly describe the intervention, provide a hypothesis and rationale as to why you believe it might benefit the client, and then discuss how it would be implemented during clinical sessions. 
 
 **Due:** 3/11/21 
@@ -126,25 +128,14 @@ Once you have identified an article, you will need to become familiar with the i
 
 The narrative lesson plan should be approximately 2-pages in length, double-spaced, for the narrative portions. Please delineate between each of the various sections in the narrative by using headers to identify the (1) client profile, (2) intervention description, (3) clinical hypothesis and rationale, and (4) description of how you plan on embedding the intervention into a hypothetical clinical session. The narrative portions should be uploaded onto Canvas. 
 
-**_Grading:_** 25 total points
+**_Grading:_** 10 extra credit points 
 
-  * 5 points - Fully completing the tables 
-  * 5 points - Describing your client and rationale 
-  * 5 points - Providing a detailed description of the intervention 
-  * 5 points - Describing implementation of the intervention during a clinical session
-  * 5 points - Using a clear and concise writing style, accurate grammar, and punctuation 
+  * 2 points - Fully completing the tables 
+  * 2 points - Describing your client and rationale 
+  * 2 points - Providing a detailed description of the intervention 
+  * 2 points - Describing implementation of the intervention during a clinical session
+  * 2 points - Using a clear and concise writing style, accurate grammar, and punctuation 
   
-**_Extra Credit Opportunity:_** 
-
-Earn up to 10 extra credit points by developing a brief video of yourself implementing the strategy or at least a part of the strategy, similar to the video created for you Systematic Instruction assignment. You will briefly introduce the “client” to the intervention (1-2 minutes), engage in the activity (3-6 minutes), and wrap-up the activity, including a brief review of performance (3-6 minutes). Once you have completed the video, you will need produce a modified SOAP note, providing the O, A, and P sections. You may use a table or narrative description to describe the O section, a narrative for the A section, and bullet points for P section. Remember the rationale for the P section should be evidenced by the “client’s” reported performance in the O and A sections. 
-
-**_Grading:_** - 10 total points
-
-  * 5 points - Video
-  * 5 points - Modified SOAP Note
-  
-**_Extra Credit:_** up to 10 points and 30 minutes of ACE hours 
-
 
 # SIMUCASE "Larry" (CLQT Assessment)
 
