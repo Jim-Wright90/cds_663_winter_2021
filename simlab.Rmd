@@ -147,7 +147,7 @@ Neurocognitive assessment at the first clinic visit revealed a Mini Mental State
 Michael has trouble remembering important dates (anniversary - 6/16) and locating essential tools/objects, such as his glasses (beside table). Basic information has also been challenging for retention, including his home address (4321 Sesame St.). He has always enjoyed maintaining a succulent garden and used to participate in a local string quartet. He and his spouse are financial sponsors of a local community theatre.
 
 
-![](tools/dementia_client_pic.png)
+![](tools/dementia_client_pic.png){width=100%}
 
 
 **Your Task:** 
